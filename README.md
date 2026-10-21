@@ -1,10 +1,33 @@
-# Documentation
-This is the official MinecraftForge documentation, located at https://docs.minecraftforge.net.
+# Forge — зеркало официальной документации
 
-It is intended to provide detailed documentation of Forge development concepts. This does not include javadocs.
+> Это **зеркало** (fork) официального репозитория
+> [`MinecraftForge/Documentation`](https://github.com/MinecraftForge/Documentation).
+> Оно синхронизируется с оригиналом автоматически — GitHub Actions
+> подтягивает изменения ежедневно.
 
-The intent with this is to create a curated *definitive* source of documentation for developing mods with Forge. It is not a Java language tutorial, and basic concepts of Java should not be part of this documentation. Excessive example code will be avoided in lieu of more thorough explanations.
+Официальная документация MinecraftForge. Ветка `1.21.x` — актуальная по умолчанию; ветки `FG/5.x` и `FG/6.x` — современные поколения Forge.
 
-Feel free to submit pull requests related to documentation of Forge development here. See [CONTRIBUTING.md](/CONTRIBUTING.md)
+- Оригинал: <https://github.com/MinecraftForge/Documentation>
+- Сайт документации: <https://docs.minecraftforge.net>
+- Ветка: `1.21.x`
+- Последняя синхронизация с оригиналом: **2025-08-16**
 
-Don't expect this to be constantly being updated, though we will try and remedy egregious errors more quickly.
+## Что здесь полезного
+
+| Раздел | Описание |
+|---|---|
+| — | документация |
+
+## Свежесть
+
+Синхронизацию выполняет workflow
+[`sync-upstream.yml`](.github/workflows/sync-upstream.yml): каждый день и по
+кнопке вручную. Если upstream переписал историю — зеркало приводится к точному
+состоянию оригинала (`--force-with-lease`).
+
+## Связанные репозитории
+
+- Собственный справочник по моддингу (версии, матрица совместимости, миграция на 26.x):
+  [`ssr33242/modding-docs`](https://github.com/ssr33242/modding-docs)
+- Fabric: [`ssr33242/fabric-docs`](https://github.com/ssr33242/fabric-docs)
+- NeoForge: [`ssr33242/neoforge-docs`](https://github.com/ssr33242/neoforge-docs)
